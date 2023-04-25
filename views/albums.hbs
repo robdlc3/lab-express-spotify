@@ -1,8 +1,8 @@
 <h1>Albums</h1>
 {{#each albums}}
-  {{!-- {{#if images[0]}}
-    {{/if}} --}}
-  <img src="{{images.0.url}}" alt="{{name}} profile picture" />
-  <h3>{{name}}</h3>
-  <a href="/tracks/{{id}}">Get Tracks</a>
+{{!-- {{#if images[0]}}
+{{/if}} --}}
+<img src="{{images.0.url}}" alt="{{name}} profile picture" />
+<h3>{{name}}</h3>
+<a href="/tracks/{{id}}">Get Tracks</a>
 {{/each}}
